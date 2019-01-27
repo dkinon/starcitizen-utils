@@ -13,11 +13,11 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
 1. Clone the repo to the directory of your choosing.
 2. Launch Windows PowerShell
 ![GitHub Logo](./docs/screenshots/windows10-startmenu.png)
-3. 
+3. Update script execution policy to allow unsigned local scripts to be exectuted: 
 `
 PS >Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
 `
 4. Start sc-util.ps1
 `PS > ./sc-util.ps1`
 
-![Sample Output](./docs/screenshot/powershell-output.png)
+![Sample Script Output](./docs/screenshot/powershell-execution.png)
