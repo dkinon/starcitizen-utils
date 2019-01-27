@@ -5,7 +5,7 @@ Star Citizen helper scripts and stuff
 ## Prerequisites
 * A Windows installation with a [StarCitizen](https://robertsspaceindustries.com) installed.
 * [Git SCM](https://git-scm.com/download/win) or other git solution for Windows.
-* Windows PowerShell(https://docs.microsoft.com/en-us/powershell/scripting/install/installing-windows-powershell)
+* [Windows PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-windows-powershell)
 
 ## Quickstart
 1. Clone the repo to the directory of your choosing.

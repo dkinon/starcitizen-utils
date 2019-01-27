@@ -69,7 +69,7 @@ while( $true ) {
   } else {
     $physicalMemory = [math]::Round($ProcessActive.WS/1MB)
     $virtualMemory = [math]::Round($ProcessActive.VM/1MB)
-    Write-host "$(Get-Date -Format u): $ProcessName [$($ProcessActive.Id)] Priority=$($ProcessActive.priorityClass), Physical Memory=$physicalMemory, Virtual Memory=$virtualMemory"
+    Write-host "$(Get-Date -Format u): $ProcessName [$($ProcessActive.Id)] Priority=$($ProcessActive.priorityClass), Physical Memory=$($physicalMemory)MB, Virtual Memory=$($virtualMemory)MB"
 
     
     Get-WmiObject Win32_PerfRawData_PerfProc_Process |
