@@ -17,6 +17,7 @@ PS >Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
 ```
 4. Start sc-util.ps1:
 ```
+PS > cd /<path_of_your_choosing>
 PS > ./sc-util.ps1
 ```
 
