@@ -15,7 +15,9 @@ Star Citizen helper scripts and stuff
 ```
 PS >Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
 ```
-4. Start sc-util.ps1
-```PS > ./sc-util.ps1```
+4. Start sc-util.ps1:
+```
+PS > ./sc-util.ps1
+```
 
 ![Sample Script Output](./docs/screenshots/powershell-execution.png)
